@@ -1,0 +1,3 @@
+/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/.cxx/Debug/2i571sq2/x86/CMakeFiles/rebuild_cache.dir
+/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/.cxx/Debug/2i571sq2/x86/CMakeFiles/edit_cache.dir
+/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/.cxx/Debug/2i571sq2/x86/CMakeFiles/beeszar.dir
