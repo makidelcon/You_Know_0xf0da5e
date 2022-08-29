@@ -1,0 +1,9 @@
+# ninja log v5
+0	256	1661731460	CMakeFiles/beeszar.dir/beeszar.cpp.o	d1ea0f60b4f0e34b
+256	326	1661731460	/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/2i571sq2/obj/arm64-v8a/libbeeszar.so	642935513f904114
+1	1523	1661732220	CMakeFiles/beeszar.dir/beeszar.cpp.o	d1ea0f60b4f0e34b
+1523	1753	1661732221	/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/2i571sq2/obj/arm64-v8a/libbeeszar.so	642935513f904114
+1	458	1661746351	CMakeFiles/beeszar.dir/beeszar.cpp.o	d1ea0f60b4f0e34b
+458	559	1661746351	/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/2i571sq2/obj/arm64-v8a/libbeeszar.so	642935513f904114
+0	429	1661747071	CMakeFiles/beeszar.dir/beeszar.cpp.o	d1ea0f60b4f0e34b
+429	515	1661747071	/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/2i571sq2/obj/arm64-v8a/libbeeszar.so	642935513f904114

@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/maki/Meperidine/Projects/Personal/Code/Android/You_Know_0xf0da5e/app/.cxx/Debug/2i571sq2/arm64-v8a'
+ninja: no work to do.
