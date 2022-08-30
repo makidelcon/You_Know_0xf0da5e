@@ -29,29 +29,26 @@
 
 #define APP "beeszar"
 
-int i;
-
 extern "C" int Java_com_delcon_beeszar_Authenticator_auth( JNIEnv* env, jobject thiz, jstring param )
 {
+    int i;
     int valid_key;
-    const char *password = reinterpret_cast<const char *const>(param);
+    const char *password = (env)->GetStringUTFChars(param, NULL);
     unsigned int len = strlen(password);
     if (len == 16)
     {
-        for ( i = 0; len = strlen(password), (u_long)(long)i < len; i = i+2 ) {
-            if((long int)password - (int)password[(long)i + 1] != -1 ){
+        for ( i = 0; (unsigned long)i < len; i = i+2 ) {
+            if((long int)(password[i] - (long int)password[i + 1]) != -1 ){
                 __android_log_print(ANDROID_LOG_VERBOSE,APP,"[-] Incorrect password!");
-                valid_key = 1;
-                exit(0);
+                return 0;
             }
         }
-        valid_key = 0;
+        valid_key = 1;
+        __android_log_print(ANDROID_LOG_VERBOSE,APP,"[+] Correct password!");
     }
     else {
         __android_log_print(ANDROID_LOG_VERBOSE,APP,"[-] Incorrect len of password!");
-        valid_key = 1;
-        exit(0);
+        valid_key = 0;
     }
-    __android_log_print(ANDROID_LOG_VERBOSE,APP,"[+] Correct password!");
     return valid_key;
 }
