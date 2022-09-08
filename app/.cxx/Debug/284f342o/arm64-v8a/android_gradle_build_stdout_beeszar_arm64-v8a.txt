@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/user/Documents/You_Know_0xf0da5e/app/.cxx/Debug/284f342o/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/beeszar.dir/beeszar.cpp.o
+[2/2] Linking CXX shared library /home/user/Documents/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/284f342o/obj/arm64-v8a/libbeeszar.so

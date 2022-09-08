@@ -1,10 +1,12 @@
 package com.delcon.beeszar;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Authenticator authenticator = new Authenticator();
         return authenticator.auth(pass) > 0;
     }
+
+
+
 
 
     private void alert(String str){
@@ -44,8 +49,14 @@ public class MainActivity extends AppCompatActivity {
         checkButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                if(checkpassoff(String.valueOf(password.getText()))){
+                if(checkpassoff(String.valueOf(password.getText()))) {
                     alert("Correct Serial!");
+                } else {
+                    Context context = getApplicationContext();
+                    CharSequence text = "Wrong Serial";
+                    int duration = Toast.LENGTH_SHORT;
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
                 }
             }
         });

@@ -1,0 +1,7 @@
+Executable : /home/user/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/user/Documents/You_Know_0xf0da5e/app/.cxx/Debug/284f342o/arm64-v8a
+beeszar
+jvmArgs : 
+

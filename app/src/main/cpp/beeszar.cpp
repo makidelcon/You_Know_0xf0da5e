@@ -33,14 +33,22 @@ extern "C" int Java_com_delcon_beeszar_Authenticator_auth( JNIEnv* env, jobject 
 {
     int i;
     int valid_key;
+    const char *signature = "f0d4c3";
     const char *password = (env)->GetStringUTFChars(param, NULL);
     unsigned int len = strlen(password);
-    if (len == 16)
+
+    if (len == 22)
     {
-        for ( i = 0; (unsigned long)i < len; i = i+2 ) {
+        for ( i = 0; (unsigned long)i < len - 6; i = i+2 ) {
             if((long int)(password[i] - (long int)password[i + 1]) != -1 ){
-                __android_log_print(ANDROID_LOG_VERBOSE,APP,"[-] Incorrect password!");
-                return 0;
+                __android_log_print(ANDROID_LOG_VERBOSE,APP,"[-] Incorrect password1!");
+                valid_key = 0;
+                return valid_key;
+            }
+        }
+        for ( i = 16; (unsigned long)i < len; i++){
+            if(password[i] != signature[i-16]){
+                __android_log_print(ANDROID_LOG_VERBOSE,APP,"[-] Incorrect password2!");
             }
         }
         valid_key = 1;

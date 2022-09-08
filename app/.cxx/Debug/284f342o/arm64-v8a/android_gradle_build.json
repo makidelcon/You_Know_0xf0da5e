@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/user/Documents/You_Know_0xf0da5e/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/user/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/user/Documents/You_Know_0xf0da5e/app/.cxx/Debug/284f342o/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/user/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/user/Documents/You_Know_0xf0da5e/app/.cxx/Debug/284f342o/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "beeszar::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "beeszar",
+      "output": "/home/user/Documents/You_Know_0xf0da5e/app/build/intermediates/cxx/Debug/284f342o/obj/arm64-v8a/libbeeszar.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/user/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/user/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/user/Documents/You_Know_0xf0da5e/app/.cxx/Debug/284f342o/x86",
+  "command": "/home/user/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --gcc-toolchain=/home/user/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/user/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbeeszar_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/beeszar.dir/beeszar.cpp.o -c /home/user/Documents/You_Know_0xf0da5e/app/src/main/cpp/beeszar.cpp",
+  "file": "/home/user/Documents/You_Know_0xf0da5e/app/src/main/cpp/beeszar.cpp"
+}
+]
